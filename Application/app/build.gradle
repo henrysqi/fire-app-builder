@@ -38,7 +38,7 @@ buildscript {
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "25.0.0"
+    buildToolsVersion '26.0.1'
 
     defaultConfig {
         applicationId "com.amazon.android.calypso"
@@ -96,7 +96,7 @@ dependencies {
     compile project(':TVUIComponent')
     compile project(':UAMP')
     compile project(':AMZNMediaPlayerComponent')
-    compile project(':PassThroughAdsComponent')
+    compile project(':VastAdsComponent')
     compile project(':PassThroughLoginComponent')
     compile project(':LoggerAnalyticsComponent')
 }
