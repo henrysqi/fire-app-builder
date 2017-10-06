@@ -21,15 +21,6 @@
         "dataLoader": "recipes/LightCastDataLoaderRecipe1.json",
         "dynamicParser": "recipes/LightCastContentsRecipe.json"
       }
-    },
-    {
-      "categories": {
-        "name": "Hardcoded Category Name"
-      },
-      "contents": {
-        "dataLoader": "recipes/LightCastDataLoaderRecipe1.json",
-        "dynamicParser": "recipes/LightCastAllContentsRecipe.json"
-      }
     }
   ],
   "graph": {
