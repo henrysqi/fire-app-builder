@@ -10,7 +10,7 @@
     "id@id",
     "description@description",
     "videoURL@url",
-    "imgURL@cardImageUrl",
+    "thumbURL@cardImageUrl",
     "imgURL@backgroundImageUrl",
     "channel_id@channelId"
   ]
