@@ -12,7 +12,7 @@
  * express or implied. See the License for the specific language governing
  * permissions and limitations under the License.
  */
-package com.amazon.ads.passthrough;
+package com.distroscale.ads.hq;
 
 import com.amazon.ads.IAds;
 import com.amazon.android.module.IImplCreator;
@@ -20,7 +20,7 @@ import com.amazon.android.module.IImplCreator;
 /**
  * This lets modules follow the same protocol for creating an instance.
  */
-public class PassThroughAdsImplCreator implements IImplCreator<IAds> {
+public class HQAdsImplCreator implements IImplCreator<IAds> {
 
     /**
      * Create the PassThrough implementation. This doesn't need init.
@@ -30,6 +30,6 @@ public class PassThroughAdsImplCreator implements IImplCreator<IAds> {
     @Override
     public IAds createImpl() {
 
-        return new PassThroughAds();
+        return new HQAds();
     }
 }

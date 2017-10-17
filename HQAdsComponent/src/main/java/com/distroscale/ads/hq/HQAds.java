@@ -12,7 +12,7 @@
  * express or implied. See the License for the specific language governing
  * permissions and limitations under the License.
  */
-package com.amazon.ads.passthrough;
+package com.distroscale.ads.hq;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -23,12 +23,12 @@ import com.amazon.ads.IAds;
 /**
  * Some of the media player might be handling Ads internally thus we need a pass through module.
  */
-public class PassThroughAds implements IAds {
+public class HQAds implements IAds {
 
     /**
      * Name used for implementation creator registration to Module Manager.
      */
-    final static String IMPL_CREATOR_NAME = PassThroughAds.class.getSimpleName();
+    final static String IMPL_CREATOR_NAME = HQAds.class.getSimpleName();
 
     /**
      * Store pass through data in here.
