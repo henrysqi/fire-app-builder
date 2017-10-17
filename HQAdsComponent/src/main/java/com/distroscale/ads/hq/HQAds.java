@@ -151,10 +151,10 @@ public class HQAds implements IAds {
     @Override
     public void showPreRollAd() {
 
-        if (mIAdsEvents != null) {
-            mIAdsEvents.onAdSlotStarted(null);
-            mIAdsEvents.onAdSlotEnded(null);
-        }
+//        if (mIAdsEvents != null) {
+//            mIAdsEvents.onAdSlotStarted(null);
+//            mIAdsEvents.onAdSlotEnded(null);
+//        }
     }
 
     /**
